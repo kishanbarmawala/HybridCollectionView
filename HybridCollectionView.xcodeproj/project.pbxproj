@@ -14,6 +14,7 @@
 		72A9140823FD391D00583708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A9140623FD391D00583708 /* LaunchScreen.storyboard */; };
 		72A9141323FD391E00583708 /* HybridCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9141223FD391E00583708 /* HybridCollectionViewTests.swift */; };
 		72A9141E23FD391E00583708 /* HybridCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9141D23FD391E00583708 /* HybridCollectionViewUITests.swift */; };
+		72A9142E23FD3AFA00583708 /* TitleCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A9142D23FD3AFA00583708 /* TitleCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		72A9141923FD391E00583708 /* HybridCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A9141D23FD391E00583708 /* HybridCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridCollectionViewUITests.swift; sourceTree = "<group>"; };
 		72A9141F23FD391E00583708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A9142D23FD3AFA00583708 /* TitleCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				72A913FD23FD391A00583708 /* AppDelegate.swift */,
 				72A913FF23FD391A00583708 /* ViewController.swift */,
 				72A9140123FD391A00583708 /* Main.storyboard */,
+				72A9142D23FD3AFA00583708 /* TitleCollectionView.swift */,
 				72A9140423FD391D00583708 /* Assets.xcassets */,
 				72A9140623FD391D00583708 /* LaunchScreen.storyboard */,
 				72A9140923FD391D00583708 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				72A9140023FD391A00583708 /* ViewController.swift in Sources */,
 				72A913FE23FD391A00583708 /* AppDelegate.swift in Sources */,
+				72A9142E23FD3AFA00583708 /* TitleCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
