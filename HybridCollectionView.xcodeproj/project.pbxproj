@@ -101,11 +101,11 @@
 			children = (
 				72A913FD23FD391A00583708 /* AppDelegate.swift */,
 				72A913FF23FD391A00583708 /* ViewController.swift */,
-				72A9140123FD391A00583708 /* Main.storyboard */,
 				72A9142D23FD3AFA00583708 /* TitleCollectionView.swift */,
-				72A9140423FD391D00583708 /* Assets.xcassets */,
+				72A9140123FD391A00583708 /* Main.storyboard */,
 				72A9140623FD391D00583708 /* LaunchScreen.storyboard */,
 				72A9140923FD391D00583708 /* Info.plist */,
+				72A9140423FD391D00583708 /* Assets.xcassets */,
 			);
 			path = HybridCollectionView;
 			sourceTree = "<group>";

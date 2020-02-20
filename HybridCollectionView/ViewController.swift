@@ -10,7 +10,6 @@ import UIKit
 
 class TitleCell: UICollectionViewCell {
     @IBOutlet weak var lblTitle: UILabel!
-    
 }
 
 class MainCell: UICollectionViewCell {
@@ -18,17 +17,17 @@ class MainCell: UICollectionViewCell {
 }
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var imgIcon: UIImageView!
     @IBOutlet weak var topConstraint: NSLayoutConstraint!
     @IBOutlet weak var colV: UICollectionView!
     @IBOutlet weak var colTitle: TitleCollectionView!
     
-    var strechyViewHeight: CGFloat = 200     // 200    // Manually Assign whatever you want
-                                                                    // For landscape view, mentioned below didRotate() method
+    var strechyViewHeight: CGFloat = 200    // 200    // Manually Assign whatever you want
+                                            // For landscape view, mentioned below didRotate() method
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         colTitle.setup()
         colTitle.titleCollectionViewDelegate = self
         colTitle.titleCollectionViewDataSource = self
@@ -54,7 +53,6 @@ class ViewController: UIViewController {
     }
     
     override func didRotate(from fromInterfaceOrientation: UIInterfaceOrientation) {
-        print("Called")
         if fromInterfaceOrientation.isLandscape {
             topConstraint.constant = strechyViewHeight
         }
@@ -62,7 +60,6 @@ class ViewController: UIViewController {
             topConstraint.constant = 100     // set view height on landscape orientation
         }
         orientationChanged()
-        
     }
 }
 
