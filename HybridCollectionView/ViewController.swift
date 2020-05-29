@@ -112,6 +112,27 @@ extension ViewController: TitleCollectionViewDelegate, TitleCollectionViewDataSo
                 topConstraint.constant = 0
             }
             self.view!.layoutIfNeeded()
+            
+            // Use this logic if you're using tableview
+            
+            /*
+             let scrollViewTopOffset = scrollView.contentOffset.y
+             
+             if (-scrollViewTopOffset) >= 44 {
+             
+             if (-scrollViewTopOffset) >= 44 {
+             topConstraint.constant =  -scrollViewTopOffset
+             }
+             else {
+             topConstraint.constant = 44
+             }
+             }
+             else {
+             topConstraint.constant = 44
+             }
+             self.view!.layoutIfNeeded()
+             */
+            
         }
     }
     
